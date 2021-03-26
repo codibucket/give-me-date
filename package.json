@@ -1,6 +1,6 @@
 {
-  "name": "validate-date",
-  "version": "1.0.0",
+  "name": "give-me-date",
+  "version": "1.0.1",
   "description": "This package will validate the input date",
   "main": "app.js",
   "scripts": {

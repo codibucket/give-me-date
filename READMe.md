@@ -1,12 +1,12 @@
 # validate-date
 This package will validate the input date.
 
-# install
-`npm install validate-date`
+# Installation
+`npm i give-me-date`
 
-# usage
+# Usage
 ``` javascript
-var vd = require('validate-date');
+var vd = require('give-me-date');
 vd.validate('12/12/2021'); // sample output →  true  (default date format mm/dd/yyyy)
 ## default options
 the exported function takes an option **object** with 1 property and one input value(date)
@@ -18,7 +18,7 @@ the exported function takes an option **object** with 1 property and one input v
 
 ``` javascript
 // this is the functionality i like the most
-var vd = require('validate-date');
+var vd = require('give-me-date');
 var options = {
   format:  'mm/dd/yyyy'  
 }
@@ -28,14 +28,14 @@ vd.validate('02/30/2021') // example outputs → false  * february month does no
 #### If your application uses the date format mm/dd/yyyy by default then no need to pass option.
 
 ``` javascript
-var vd = require('validate-date');
+var vd = require('give-me-date');
 vd.validate('12/12/2021')  // example outputs → true
 ```
 
 - format `mm/dd/yyyy`
 
 ``` javascript
-var vd = require('validate-date');
+var vd = require('give-me-date');
 var options = {
   format: 'mm/dd/yyyy' // example 
 }
@@ -45,7 +45,7 @@ vd.validate('13/01/2020', options) // example output → false
 - format `dd/mm/yyyy`
 
 ``` javascript
-var vd = require('validate-date');
+var vd = require('give-me-date');
 var options = {
   format: 'dd/mm/yyyy' // example 
 }
@@ -55,7 +55,7 @@ vd.validate('01/15/2020', options) // example output → false
 - format `yyyy/mm/dd`
 
 ``` javascript
-var vd = require('validate-date');
+var vd = require('give-me-date');
 var options = {
   format: 'yyyy/mm/dd' // example 
 }
