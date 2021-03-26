@@ -1,0 +1,21 @@
+{
+  "name": "validate-date",
+  "version": "1.0.0",
+  "description": "This package will validate the input date",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ravi Gehlot",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codibucket/validate-date.git"
+  }
+}
